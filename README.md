@@ -1,3 +1,3 @@
 # AdptDilatedGCN data
 
-#AdptDilatedGCN-Sta data
+# AdptDilatedGCN-Sta data
