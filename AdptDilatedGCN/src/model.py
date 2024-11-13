@@ -81,7 +81,7 @@ class ModelNew(nn.Module):
         # Lig update
         va = self.a_mt(gr, vr_init, ga, va_init)
 
-        # MSIC
+        # MSIF
         vr = self.r_mt(ga, va_init, gr, vr_init)
         vv = vr.permute(1, 0).unsqueeze(0)
         vv = self.dilated_block_a(vv)
